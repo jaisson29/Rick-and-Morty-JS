@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: rgb(43, 43, 43);
+	margin: 0;
+	padding: 0;
+}
+
+#section-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 3fr));
+	place-items: center;
+	gap: 1rem;
+	justify-content: center;
+	padding-top: 30px;
+	background-color: rgb(43, 43, 43);
+}
+
+.card h2 {
+	margin: 5px 0;
+}
+
+.card {
+	width: 500px;
+	height: 200px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	box-shadow: 8px 8px 10px 5px rgba(4, 255, 0, 0.6);
+	color: #FFF;
+}
+
+.card:hover {
+	font-size: 18px;
+}
+
+.card:hover h2 {
+	color: rgb(177, 95, 0);
+}
+
+.card img {
+	width: 40%;
+	height: 100%;
+}
+.body-card {
+	width: 60%;
+	display: flex;
+	text-align: left;
+	justify-content: left;
+	flex-direction: column;
+	padding-left: 10px;
+}
+
+.alive::before {
+	content: " \2022";
+	color: green;
+	font-size: 25px;
+	margin-right: 5px;
+}
+
+.unknown::before {
+	content: " \2022";
+	color: gray;
+	font-size: 25px;
+	margin-right: 5px;
+}
+
+.dead::before {
+	content: " \2022";
+	color: darkred;
+	font-size: 25px;
+	margin-right: 5px;
+}
+
+label {
+	font-size: 12px;
+	color: rgb(148, 148, 148);
+	margin-top: 5px;
+}
