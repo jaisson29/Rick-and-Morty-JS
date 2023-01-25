@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rick and Morty</title>
-    <!-- Jquery -->
-    <script src="./index.js"></script>
+    <!-- Import of icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <!--Cargar estilos-->
     <link rel="stylesheet" href="./index.css" />
   </head>
@@ -16,18 +17,34 @@
         width="100%"
         height="auto"
         src="https://pbs.twimg.com/media/EO5OatUXkAE0qae.jpg"
-      />
-    </header>
-    <main>
-      <section id="section-cards">
-        <!--Modelo de una tarjeta-->
-      </section>
-      <!-- <div class="pagination">
-        <button id="prev">Prev</button>
-        <button id="next">Next</button>
-      </div> -->
-    </main>
-
-    <!--Cargar scripts-->
-  </body>
-</html>
+        />
+      </header>
+      <main>
+        <section id="section-cards">
+          <!--Modelo de una tarjeta-->
+        </section>
+        <div class="pagination">
+          <button id="prev">Previous page</button>
+          <button id="next">Next page</button>
+        </div>
+      </main>
+      <footer>
+        <p>Project developed by Jaisson Valbuena</p>
+        <div className="contact-icons">
+          <a
+            href="https://www.linkedin.com/in/jjvalbuenad/"
+            target="_black"
+          >
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="https://github.com/jaisson29" target="_blanck">
+            <i class="bx bxl-github"></i>
+          </a>
+        </div>
+      </footer>
+      
+      <!--Cargar scripts-->
+      <script src="./index.js"></script>
+    </body>
+    </html>
+    

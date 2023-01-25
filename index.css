@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Montserrat:wght@300&display=swap');
+
+
+
+
 body {
 	margin: 0;
 	padding: 0;
+	background: rgb(43, 43, 43);
 }
 
 header {
-	background-color: rgb(43, 43, 43);
 	margin: 0;
 	padding: 0;
 }
@@ -13,10 +18,9 @@ header {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(500px, 3fr));
 	place-items: center;
-	gap: 1rem;
+	gap: 3rem 0rem;
 	justify-content: center;
 	padding-top: 30px;
-	background-color: rgb(43, 43, 43);
 }
 
 .card h2 {
@@ -79,4 +83,45 @@ label {
 	font-size: 12px;
 	color: rgb(148, 148, 148);
 	margin-top: 5px;
+}
+
+.pagination {
+	padding: 70px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+
+#next, #prev {
+	width: 300px;
+	height: auto;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+footer p{
+	color: azure;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 20px;
+}
+
+
+.contact-icons {
+	width: 500px;
+	margin: auto 0;
+}
+
+i {
+	color: rgb(6, 213, 6);
+	font-size: 50px;
 }
