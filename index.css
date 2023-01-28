@@ -60,22 +60,28 @@ header {
 
 .alive::before {
 	content: " \2022";
+	display: inline-block;
+	vertical-align: middle;
 	color: green;
-	font-size: 25px;
+	font-size: 30px;
 	margin-right: 5px;
 }
 
 .unknown::before {
 	content: " \2022";
+	display: inline-block;
+	vertical-align: middle;
 	color: gray;
-	font-size: 25px;
+	font-size: 30px;
 	margin-right: 5px;
 }
 
 .dead::before {
 	content: " \2022";
+	display: inline-block;
+	vertical-align: middle;
 	color: darkred;
-	font-size: 25px;
+	font-size: 30px;
 	margin-right: 5px;
 }
 

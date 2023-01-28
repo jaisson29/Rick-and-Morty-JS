@@ -1,4 +1,4 @@
-let currentPage = 0
+let currentPage = 1
 let totalPages = null
 
 async function get_characters(page) {
@@ -54,9 +54,9 @@ function show_characters(characters) {
         </div>
         <label>Actual location</label>
         <span>${characters[i].location.name}</span>
-        <label>Actual location</label>
+        <label>Gender</label>
         <span>${characters[i].gender}</span>
-        <label>Actual location</label>
+        <label>Origin</label>
         <span>${characters[i].origin.name}</span>
       </div>
     </article>
